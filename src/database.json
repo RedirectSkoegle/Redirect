@@ -1,0 +1,24 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "name": "Jithin",
+        "role": "user",
+        "password": "password123",
+        "fileUrls": [
+          {
+            "month": "February",
+            "url": "https://example.com/url1"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Admin",
+        "role": "admin",
+        "password": "adminpassword",
+        "fileUrls": []
+      }
+    ]
+  }
+  
