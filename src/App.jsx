@@ -95,6 +95,9 @@ function TaskUpdate() {
     Prajwal: [
       { sno: 1, month: "February", url: "https://sheet.zoho.in/sheet/open/sj0wbf8363be3dd7b4af7b5e7429455c56e5a?sheetid=11&range=A1", remark: "In Progress" },
     ],
+      Harsha: [
+      { sno: 1, month: "February", url: "https://sheet.zoho.in/sheet/open/sj0wbf8363be3dd7b4af7b5e7429455c56e5a?sheetid=12&range=A1", remark: "In Progress" },
+    ],
   };
   const filteredEmployees = Object.keys(employeeTasks).filter((employee) =>
     employee.toLowerCase().includes(searchTerm.toLowerCase())
