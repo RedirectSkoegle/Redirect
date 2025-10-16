@@ -20,7 +20,7 @@ import {
 function RedirectComponent() {
   const location = useLocation();
   useEffect(() => {
-    const newUrl = `https://skoegle.in${location.pathname}${location.search}${location.hash}`;
+    const newUrl = `https://skoegle.com${location.pathname}${location.search}${location.hash}`;
     window.location.href = newUrl;
   }, [location]);
 
